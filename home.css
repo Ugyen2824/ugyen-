@@ -1,0 +1,196 @@
+*{margin: 0;
+padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,);
+    background-image: url("https://kuenselonline.com/wp-content/uploads/2020/08/armydogfeeding.jpg");
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+
+.logo{
+    size: 20px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    width: 100px;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-top: 3%;
+}
+
+
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial,;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+    
+}
+
+ul li a:hover{
+    color:blue
+    
+}
+.home ul li.active a{
+    background-color: green;
+    color: blue;
+}
+.search{
+    width: 430px;
+    float: left;
+position: relative;
+    left: 250px;
+}
+
+
+.srch{font-family: 'Times New Roman';
+width: 200px;
+height: 40px;
+background:transparent;
+border: 1px solid rgb(239, 7, 7);
+margin-top: 13px;
+color: rgb(240, 240, 241);
+border-right: none;
+font-size: 16px;
+float: left;
+padding: 10px;
+border-bottom-left-radius: 5px ;
+border-top-left-radius: 5px;
+}
+
+
+.btn{
+width: 100px;
+height: 40px;
+background: red;
+border: 2px solid red;
+margin-top: 13px;
+color: white;
+font-size: 15px;
+border-bottom-right-radius: 5px;
+
+
+}
+
+.btn:focus{
+outline: none;
+
+}
+
+
+.search, input.btn {
+    margin-left: 100px;
+}
+.srch:focus{outline: none;}
+
+.content{
+
+    height: auto;
+    color: rgb(242, 245, 247);
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 20rem;
+    top: 10rem;
+    color:blue;
+}
+.par{
+    padding-left: 20px;
+    /* padding-bottom: 25px; */
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    position: absolute;
+    top: 20rem;
+    color:red;
+}
+
+button.cn {
+    position: relative;
+    top: 26rem;
+    right: 40rem;
+    padding: 10px;
+    background-color:rgb(237, 17, 54);
+    
+}
+
+button.cn a {
+    text-decoration: none;
+    
+}
+
+
+
+.form{
+color: aliceblue;
+box-shadow: 4px 4px 4px 4px 4px ;
+width: 250px;
+background:linear-gradient(to top, rgba(107, 105, 109, 0.8)50%,rgba(126, 121, 127, 0.8)50%);
+
+position:relative;
+top: 200px;
+left: 50rem;
+border-radius:5px;
+padding-left: 90px;
+}
+
+.form button a{
+    color: white;
+    text-decoration: none;
+}
+
+.from h2{
+    
+width: 220px;
+font-family:sans-serif;
+text-align: center;
+color: yellow;
+font-size: 22px;
+background-color:blue;
+border-radius: 10px;
+margin:auto;
+padding: 8px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 10x solid red;
+    color: white;
+}
+

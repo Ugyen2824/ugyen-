@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+    background-color:rgb(238, 189, 197);
+    width: auto;
+}
+header{
+    text-align: center;
+    color: Black;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: aqua;
+    border-radius: 30px;
+    width: 180px;
+    height: 30px;
+    margin: auto;
+    padding-top: 15px;
+
+    animation-name: popup;
+    position: relative;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+header :hover{
+    cursor: pointer;
+    color: brown;
+    transform:scale(1.5 1.5); 
+    
+}
+img{
+    height: 100vh;
+    width: 200vh;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+#one{
+    height: 100vh;
+    width: 200vh;
+}
+#two{
+    height: 100vh;
+    width: 200vh;
+}
+
+li{
+    font-family: 'Courgette', cursive;
+}
+p{
+    font-family: 'Poor Story', cursive;
+    line-height: 1.5em;
+    border-left: 5px solid black;
+    padding-left: 15px;
+}
+a{
+  color: blue; 
+  background-color: coral;
+  text-transform:capitalize; 
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+a:hover{
+    color:black;
+}
+
+
+
+
+@keyframes popup{
+    
+    0%{background-color:black;}
+    10%{background-color:yellow;}
+    15%{background-color:pink;}
+    25%{background-color:white;}
+    50%{background-color:brown;}
+    75%{background-color:bisque;}
+    100%{background-color:chocolate;}
+    
+}

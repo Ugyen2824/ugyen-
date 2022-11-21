@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+     padding:0;
+     font-family:fantasy;
+     
+ }
+ 
+ body {
+   background-image:url("waterhole\ \(1\).jpg");
+     height:100vh; 
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ 
+ .main {
+     padding-top: 30px;
+ }
+ 
+ .main ul{
+     
+     display: flex;
+     justify-content: space-evenly;
+ }
+ 
+ ul li a {
+     text-decoration:none;
+     color: #ff0000;
+     padding: 5px 20px;
+     border: 1px solid yellow transparent;
+     transition: 0.6s ease;
+     border: 1px solid black;
+     box-shadow: 1px 2px 3px 5px blue;
+   }
+ 
+ ul li a:hover{
+     background-color: chartreuse;
+     color: black;
+ }
+ 
+ ul li.active a {
+     background-color: chartreuse;
+     color: black;
+   }
+ 
+ 
+ /* Second div */
+ 
+ .title{
+     position: relative;
+     top: 14em;
+     animation-name: hello;
+     animation-duration: 5s;
+     animation-direction:alternate;
+     animation-iteration-count: infinite;
+    margin-bottom: 300px;
+ }
+ .title h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+     
+     
+    margin-top: -100px;
+     opacity: 0.;
+     box-shadow: 3px 3px 3px 4px;
+     
+  }
+ .title a {
+     margin-right: 10px;
+     text-decoration: none;
+ }
+ 
+ .btn{
+     display: inline-block;
+     margin-top: 20px;
+     border:1px solid blue;
+     padding: 5px 30px;
+     text-decoration: underline;
+     color: white;
+     box-shadow: 1px 3px 5px 6px white;
+ }
+ 
+ .btn:hover {
+     background-color: rgba(0, 255, 255, 0.9);
+ }
+ @keyframes hello{
+     
+     0%{backgroung-color:green;}
+     25%{background-color:blue;}
+     50%{background-color:pink;}
+     75%{background-color:green;}
+     100%{background-color:black;}
+         150%{background-color:lightblue;}
+ }
+ #quatation{
+   display: block;
+     margin: 0 auto;
+     color: darkorange;
+     margin-top: 250px;
+     box-shadow: 3px 3px 3px 3px;
+ }
